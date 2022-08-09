@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet"); /*contain all the fonts use in here*/
+*{
+    box-sizing:border-box; /*include padding in total width and height*/
+}
+header .section{
+    overflow-x: hidden; /*Hide all the extra from left and right*/
+}
+:root{ /*define some font families and colors use in here*/
+    --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --bggradient: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+
+}
+header{
+    background: #66a6ff;
+    background: var(--bggradient);
+}
+header .navbar-brand{
+    font-size: 35px;
+    font-family: var(--Patua);
+   
+}
+
+
+header a {
+    font-family: var(--Sniglet-font);
+    font-size: 1.5em;
+
+    
+  }
+header .nav-item:last-child{
+    padding-right: 0.8em;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header  .row .col-md-7{
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+
+}
+header .row .col-md-7 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+    
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(8) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+
+#c{
+  color: blue;
+}
+header .container .col-md-7 p{
+    letter-spacing: 2px;
+    padding: 1vmin 5vmin;
+}
+header .container .col-md-5 img{
+    width: 90%;
+    margin-top: 60px;
+    border-radius: 50%;
+}
+.section-1{
+    padding: 20vmin 0;
+}
+.section-1 .container h2{
+    font-family:var(--Lobster);
+    font-size: 3em;
+}
+.section-1 .team{
+    padding-top: 0.7em;
+}
+.section-1 .team h4{
+    font-family:var(--Patua);
+} 
+.section-1 .team h4:hover{
+    color:dodgerblue;
+} 
+.section-1 .team p{
+    padding: 2px;
+    margin-bottom: 5px;
+} 
+.section-1 .container-2{
+   margin-left: 45%;
+
+}
+.section-1 .container-2 a{
+    font-size: 25px;
+    margin-top: 30px;
+    color:white;
+    
+ }
+ .section-1 .container-2 a:hover{
+    color: black;
+    
+ }
+ .section-2 .row .col-md-6 .panel {
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+  }
+  .section-2 .row .col-md-6 .panel h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.4em 0;
+    font-size: 2em;
+  }
+  .section-2 .row .col-md-6 .panel p{
+    font-size: 0.9em;
+  }
+  .section-2 .row .col-md-6 .pray img{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  .section-2 .container-2{
+    margin-left: 45%;
+ 
+ }
+ .section-2 .container-2 a{
+     font-size: 25px;
+     margin-top: 30px;
+     color:white;
+     
+  }
+  .section-2 .container-2 a:hover{
+     color: black;
+     
+  }
+  .section-3{
+    padding: 20vmin 0;
+}
+.section-3 .container h1{
+    font-family: var(--Lobster);
+    font-size: 3em;
+}
+.section-3 .container p{
+    font-family: var(--Patua);
+    font-size: 1.3em;
+}
+.section-3 .card {
+    width: 22em;
+    margin-top: 10vmin;
+  }
+  
+  .section-3 .card .card-text {
+    padding: 0.5em;
+  }
+  
+  .section-3 .card-body > a {
+    font-size: 1.5em;
+  }
+  
+  .section-3 .carousel-item {
+    padding-left: 3rem;
+  }
+  
+  .border-radius {
+    border-radius: 340px;
+    width: 60%;
+  }
+  .section-4{
+    padding: 20vmin 0;
+  }
+  .section-4 .row .col-md-6 h2{
+    font-family: var(--Lobster);
+    margin-left: 40px;
+  }
+  .section-4 .row .col-md-6 p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0px;
+  }
+  .numbers .rect h4{
+    font-size: 1.4em;
+    text-align: center;
+    
+  }
+
+  .numbers .rect li{
+    font-size: .8em;
+    margin-left: 0px;
+    
+
+    
+  }
+  .numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 13rem;
+    height: 8rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px rgba(11, 3, 3, 0.349);
+
+  }
+  footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+  }
+  
+  footer p > span {
+    color: #ff512f;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  
+  footer .column i {
+    color: #dd2476;
+  }
+  
+  /* It is Adjacent sibling combinator */
+  
+  footer .column i + i {
+    padding: 0 0.5em;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+  }
+
+.section-4 form{
+    background: #a8eaef;
+    border-radius: 10px;
+}
+#exampleInputName{
+    margin-left: 30px;
+    width: 85%;
+}
+.form-check .form-check-input{
+    margin-left: 30px;
+}
+.form-check .form-check-label{
+    margin-left: 45px;
+}
+form .btn{
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
