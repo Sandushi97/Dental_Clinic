@@ -16,12 +16,14 @@ header .section{
 header{
     background: #66a6ff;
     background: var(--bggradient);
+    
 }
 header .navbar-brand{
     font-size: 35px;
     font-family: var(--Patua);
    
 }
+
 
 
 header a {
