@@ -133,7 +133,7 @@ header .container .col-md-5 img{
     margin-bottom: 5px;
 } 
 .section-1 .container-2{
-   margin-left: 45%;
+   margin-left: 25%;
 
 }
 .section-1 .container-2 a{
@@ -146,8 +146,13 @@ header .container .col-md-5 img{
     color: black;
     
  }
+ 
+
+
+
+
  .section-2 .row .col-md-6 .panel {
-    position: absolute;
+   
     top: 7vmin;
     left: -18vmin;
     background: white;
@@ -157,6 +162,11 @@ header .container .col-md-5 img{
     box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
     font-family: var(--Rubik);
     z-index: 1;
+   
+      position: initial;
+      width: initial;
+      height: initial;
+    
   }
   .section-2 .row .col-md-6 .panel h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -167,11 +177,13 @@ header .container .col-md-5 img{
     font-size: 0.9em;
   }
   .section-2 .row .col-md-6 .pray img{
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-top: -35px;
+  
   }
   .section-2 .container-2{
-    margin-left: 45%;
+    margin-left: 25%;
  
  }
  .section-2 .container-2 a{
@@ -179,11 +191,17 @@ header .container .col-md-5 img{
      margin-top: 30px;
      color:white;
      
+     
   }
   .section-2 .container-2 a:hover{
      color: black;
      
   }
+
+
+
+
+  
   .section-3{
     padding: 20vmin 0;
 }
