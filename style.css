@@ -114,6 +114,12 @@ header .container .col-md-5 img{
 }
 .section-1{
     padding: 20vmin 0;
+    
+    top: 0;left: 0;
+    height: 100%!important;
+    width: 100%;
+    object-fit: cover;
+    
 }
 .section-1 .container h2{
     font-family:var(--Lobster);
